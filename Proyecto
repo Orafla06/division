@@ -1,0 +1,14 @@
+//CÓDIGO PARA DIVISIÓN DE NÚMEROS ENTEROS//
+
+#include <iostream>
+int main(int argc, char** argv) {
+int a, b, c;
+std:: cout << "\n Programacion en Ingenieria \n";
+std:: cout << "Digite el valor de a: ";
+std:: cin >> a;
+std:: cout << "Digite el valor de b: ";
+std:: cin >> b;
+c = a / b;
+std:: cout << "El valor de c= " <<c;
+return 0;
+}
